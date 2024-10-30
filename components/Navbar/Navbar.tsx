@@ -1,7 +1,16 @@
-import React from 'react'
+'use client'
+import Link from 'next/link';
 import styles from '../Navbar/Navbr.module.css'
+import React, { useState } from "react";
+
 
 function Navbar() {
+
+    const [menuActive, setMenuActive] = useState(false);
+    function toggleMenu() {
+      setMenuActive(!menuActive);
+    }
+
   return (
     <div className={styles.containar}>
 
@@ -10,16 +19,16 @@ function Navbar() {
                 <h1>M/F</h1>
             </div>
 
-            <div className={styles.menu_div}>
-                <ul className={styles.menu}>
-                    <li className={styles.li}><a href="#">Word</a></li>
-                    <li className={styles.li}><a href="#">About</a></li>
-                    <li className={styles.li}><a href="#">Playground</a></li>
-                    <li className={styles.li}><a href="#">Contact</a></li>
+                {/* <ul className={styles.menu}> */}
+                <ul className={`${styles.menu} ${menuActive ? styles.active : ""}`}>
+                <Link href="#"><li className={styles.li}>Word</li></Link>
+                <Link href="#"><li className={styles.li}>About</li></Link>
+                <Link href="#"><li className={styles.li}>Playground</li></Link>
+                <Link href="#"><li className={styles.li}>Contact</li></Link>
                 </ul>
-            </div>
 
-            <div className={styles.hamburger}>
+
+            <div className={styles.hamburger}  onClick={toggleMenu}>
             &#9776;
             </div>
 
