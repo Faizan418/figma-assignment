@@ -11,7 +11,7 @@ function Section3() {
             <div className={styles.one}>
                 <h1 className={styles.heading1}>03 / Multi-Pages-web-clone</h1>
                 <h2 className={styles.heading2}>Create a Simple multi pages web Clone GIAIC Milestone-2 Assignment...</h2>
-                <p className={styles.click}><Link href={"#"}> "Click here" to see this project__</Link></p>
+                <p className={styles.click}><Link href={"#"}> &rdquo;Click here&rdquo; to see this project__</Link></p>
             </div>
             <div className={styles.two}>
                     <div className={styles.img_div}>
