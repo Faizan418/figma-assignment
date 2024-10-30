@@ -10,7 +10,7 @@ function Section1() {
             <div className={styles.one}>
                 <h1 className={styles.heading1}>01 / Multi-Pages-web-clone</h1>
                 <h2 className={styles.heading2}>Create a Simple multi pages web Clone GIAIC Milestone-2 Assignment...</h2>
-                <p className={styles.click}><Link href={"https://mile2-assignment-css.vercel.app/"}> &rdquo;Click here&rdquo; to see this project__</Link></p>
+                <p className={styles.click}><Link href={"https://mile2-assignment-css.vercel.app/"} target='_blank'> &rdquo;Click here&rdquo; to see this project__</Link></p>
             </div>
             <div className={styles.two}>
                     <div className={styles.img_div}>

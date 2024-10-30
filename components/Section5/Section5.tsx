@@ -10,7 +10,7 @@ function Section5() {
             <div className={styles.one}>
                 <h1 className={styles.heading1}>05 / Resume Builder..</h1>
                 <h2 className={styles.heading2}>Create a Simple Resume Builder web GIAIC hackathone project...</h2>
-                <p className={styles.click}><Link href={"https://faizan418-hackathon-project.vercel.app/"}> &rdquo;Click here&rdquo; to see this project__</Link></p>
+                <p className={styles.click}><Link href={"https://faizan418-hackathon-project.vercel.app/"} target='_blank'> &rdquo;Click here&rdquo; to see this project__</Link></p>
             </div>
             <div className={styles.two}>
                     <div className={styles.img_div}>
