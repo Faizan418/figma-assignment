@@ -10,7 +10,7 @@ import Section5 from '../Section5/Section5'
 
 function Hero() {
   return (
-    <div>
+    <div id='word'>
       <Section1/>
       <Section2/>
       <Section3/>

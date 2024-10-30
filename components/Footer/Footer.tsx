@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function Footer() {
   return (
-    <div className={styles.containar}>
+    <div className={styles.containar} id='footer'>
         <div className={styles.one}>
             <p>Muhammad Faizan 2024</p>
         </div>

@@ -21,10 +21,10 @@ function Navbar() {
 
                 {/* <ul className={styles.menu}> */}
                 <ul className={`${styles.menu} ${menuActive ? styles.active : ""}`}>
-                <Link href="#"><li className={styles.li}>Word</li></Link>
+                <Link href="#word"><li className={styles.li}>Word</li></Link>
                 <Link href="#"><li className={styles.li}>About</li></Link>
                 <Link href="#"><li className={styles.li}>Playground</li></Link>
-                <Link href="#"><li className={styles.li}>Contact</li></Link>
+                <Link href="#footer"><li className={styles.li}>Contact</li></Link>
                 </ul>
 
 
