@@ -11,7 +11,7 @@ function Section3() {
             <div className={styles.one}>
                 <h1 className={styles.heading1}>03 / Portfolio</h1>
                 <h2 className={styles.heading2}>Create a Persional Portfolio...</h2>
-                <p className={styles.click}><Link href={"https://mile2-project-css.vercel.app/"} target='_blank'> &rdquo;Click here&rdquo; to see this project__</Link></p>
+                <p className={styles.click}><Link href={"https://mile2-project-css.vercel.app/"} target='_blank'> &rdquo;Click here&rdquo; to Live Demo__</Link></p>
             </div>
             <div className={styles.two}>
                     <div className={styles.img_div}>
